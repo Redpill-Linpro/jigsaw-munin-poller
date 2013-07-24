@@ -1,0 +1,23 @@
+{
+  "name": "jigsaw-munin-poller",
+  "version": "0.0.1",
+  "description": "A daemon for moving Munin data to Graphite, and store graph details in MongoDB. This is a metrics gatherer for jigsaw",
+  "keywords": [
+    "munin",
+    "jigsaw",
+    "graphite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redpill-linpro/jigsaw-munin-poller"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "node-munin-client": "0.0.1",
+    "jigsaw-schema": "0.0.1"
+  }
+}
